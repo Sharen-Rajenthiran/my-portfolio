@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sharen Rajenthiran",
+  title: "Hi, all, I'm Sharen Rajenthiran",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I've always been attracted to solving problems and real-world challenges. Programming is one of the best ways to achieve this😁! Currently seeking opportunities in Software Engineering, Embedded Software Engineering, AI Engineering, Machine Learning Engineering, and similar roles for a career transition to continuously challenge myself intellectually and commit to building robust and intricate applications for business and research problems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Sharen-Rajenthiran",
+  linkedin: "https://www.linkedin.com/in/sharen-rajenthiran/",
+  gmail: "sharenrajenthiran@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "https://medium.com/@sharenrajenthiran",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +48,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I can do",
+  subTitle: "Currently exploring these awesome technologies!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Design robust algorithms and maintainable applications."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of AI and Machine Learning algorithms in your business challenges!"
     )
   ],
 
@@ -89,8 +89,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "",
+      fontAwesomeClassname: ""
     },
     {
       skillName: "npm",
@@ -105,8 +105,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "",
+      fontAwesomeClassname: ""
     },
     {
       skillName: "python",
@@ -126,39 +126,39 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Universiti Teknologi Malaysia (UTM)",
+      logo: require("./assets/images/utm.png"),
+      subHeader: "Bachelor of Science in Physics",
+      duration: "2019 - November 2023 (4 years)",
+      desc: "Awarded Best Undergraduate Project for Final-Year Project titled A Mathematical Approach to Nuclear Matter Problem and Nuclear Geometry.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Coursework: Algorithms, Computation, Data Analysis, Statistics, Quantum Physics, Material Science, Semiconductors, Electronics.",
+        "Graduated with First-Class Honours with GPA of 3.93/4.00."
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "50%"
     },
     {
       Stack: "Programming",
@@ -174,29 +174,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Python Software Engineer (AI Engineer)",
+      company: "Etiqa Takaful",
+      companylogo: require("./assets/images/etiqa.jpg"),
+      date: "February - June 2024 (5 months)",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed algorithms to extract top customer feedback and inquiries using top models for data analysis.",
+        "Worked on deploying AI models into UAT and production environments, ensuring scalability, and real-time responsiveness.",
+        "Design, develop, and deploy AI system components like Chatbots and API services.", 
+        "Stay updated on the latest AI and machine learning models to solve complex business problems."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Intern in Theoretical Quantum Optics",
+      company: "Universiti Malaya",
+      companylogo: require("./assets/images/University_of_Malaya_Logo.jpg"),
+      date: "July - October 2022 (3 Months)",
+      desc: "To gain knowledge and understand theoretical frameworks regarding Quantum information, Quantum Computing, and Quantum Algorithms."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Administrator cum Tutor",
+      company: "Qalam Genius",
+      companylogo: require("./assets/images/world-education-logo-design-vector.jpg"),
+      date: "December 2018 - June 2019 (7 Months)",
+      desc: "I taught kids from all ages Science, Mathematics, and English while working as an administrator."
     }
   ]
 };
@@ -206,35 +208,35 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Highlight Projects",
+  subtitle: "Some projects I worked on to build my understanding and skills in using full-stack technologies.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/quantum_circuit_icon_1.png"),
+      projectName: "A Simple Quantum Circuit Simulator",
+      projectDesc: "This project allows users to select the number of qubits (max is 5) and apply Gate operations on them mimicking a quantum circuit.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit repository",
+          url: "https://github.com/Sharen-Rajenthiran/quantum-simulator"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pathfinding_icon_1.png"),
+      projectName: "Explore All Paths Visualizer",
+      projectDesc: "This project is a visual representation of exploring all nodes and computing the distances between the nodes. It is done through a brute-force approach to visualize the process.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit repository",
+          url: "https://github.com/Sharen-Rajenthiran/explore-all-paths-visualizer"
         }
       ]
     }
@@ -246,57 +248,122 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements and Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Awards are shown here!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Best Undergraduate Project Award",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "An award given to the best project for the nuclear panel for undergraduate students.",
+      image: require("./assets/images/undergraduate_award.png"),
+      imageAlt: "undergraduate_project_award",
       footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+        // {
+        //   name: "Certification",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        // },
+        // {
+        //   name: "Award Letter",
+        //   url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        // }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Gold Medalist",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Given a gold medal award for scoring a high GPA.",
+      image: require("./assets/images/gold_medal_undergraduate.png"),
+      imageAlt: "undergraduate_gold_award",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        // {
+        //   name: "View Google Assistant Action",
+        //   url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        // }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "JavaScript Data Structures and Algorithms",
+      subtitle: "Completed Certifcation from FreeCodeCamp",
+      image: require("./assets/images/JavaScript Algorithms and Data Structures_FreeCodeCamp Sharen Rajenthiran.png"),
+      imageAlt: "javascript_certificate",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://www.freecodecamp.org/certification/sharenrajenthiran/javascript-algorithms-and-data-structures-v8"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    }, 
+    {
+      title: "Scientific Computing with Python",
+      subtitle: "Completed Certifcation from FreeCodeCamp",
+      image: require("./assets/images/Scientific Computing with Python_FreeCodeCamp Sharen Rajenthiran.png"),
+      imageAlt: "scientific_computing_certificate",
+      footerLink: [
+        {name: "Certification", url: "https://www.freecodecamp.org/certification/sharenrajenthiran/scientific-computing-with-python-v7"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    }, 
+    {
+      title: "Data Analysis with Python",
+      subtitle: "Completed Certifcation from FreeCodeCamp",
+      image: require("./assets/images/Data Analysis with Python_FreeCodeCamp Sharen Rajenthiran.png"),
+      imageAlt: "data_analysis_python_certificate",
+      footerLink: [
+        {name: "Certification", url: "https://www.freecodecamp.org/certification/sharenrajenthiran/data-analysis-with-python-v7"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "Variational Algorithm Design",
+      subtitle: "Completed Certifcation from IBM",
+      image: require("./assets/images/Variational Algorithm Design_IBM_Sharen Rajenthiran.png"),
+      imageAlt: "variational_algorithm_certificate",
+      footerLink: [
+        {name: "Certification", url: "https://www.credly.com/badges/d04125f5-c5c2-42a9-819b-cb3d31d10394/linked_in_profile"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "Basics of Quantum Information Science",
+      subtitle: "Completed Certifcation from IBM",
+      image: require("./assets/images/Basics of Quantum Information_IBM_Sharen Rajenthiran.png"),
+      imageAlt: "quantum_information_science_certificate",
+      footerLink: [
+        {name: "Certification", url: "https://www.credly.com/badges/a2abda51-0d76-461f-8732-8e1157cd81cf/linked_in_profile"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
+      ]
+    },
+    {
+      title: "PLC Fundamentals",
+      subtitle: "Completed Certifcation from PLC Dojo",
+      image: require("./assets/images/PLC_Fundamentals_Level_I_Sharen_Rajenthiran_PLC Dojo_Certificate_screenshot.png"),
+      imageAlt: "plc_dojo_certificate",
+      footerLink: [
+        {name: "Certification", url: "https://www.plcdojo.com/certificates/frqbzsvkg0"},
+        // {
+        //   name: "Final Project",
+        //   url: "https://pakistan-olx-1.firebaseapp.com/"
+        // }
       ]
     }
   ],
@@ -324,7 +391,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +410,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +423,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,25 +432,25 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Want to say hi? My inbox is open for all.",
+  number: "+60177292191",
+  email_address: "sharenrajenthiran@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
